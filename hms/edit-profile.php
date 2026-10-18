@@ -1,5 +1,4 @@
 <?php
-// Start the session
 session_start();
 
 // Include the database configuration
@@ -34,7 +33,6 @@ if(isset($_POST['submit'])) {
 <html lang="en">
 <head>
     <title>User | Edit Profile</title>
-    
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="vendor/fontawesome/css/font-awesome.min.css">
@@ -54,7 +52,6 @@ if(isset($_POST['submit'])) {
         body { font-family: 'Raleway', sans-serif; background-color: #f8fafc; }
         .mainTitle { font-weight: 700; color: #1e293b; }
         
-        /* Modern Profile Wrapper Styling */
         .profile-card {
             background: #ffffff;
             border-radius: 12px;
@@ -204,8 +201,8 @@ if(isset($_POST['submit'])) {
             </div>
         </div>
         
-        <?php include('include/footer.php'); ?>
-        <?php include('include/setting.php'); ?>
+    <?php include('include/footer.php'); ?>
+    <?php include('include/setting.php'); ?>
     </div>
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
