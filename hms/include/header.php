@@ -1,7 +1,5 @@
 <?php 
 error_reporting(0); 
-
-// Use the user_id from the session variable
 $userId = $_SESSION['user_id']; 
 
 // Query to fetch the number of appointments with a set check-up date and time
