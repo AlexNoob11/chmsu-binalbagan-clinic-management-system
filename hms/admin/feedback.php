@@ -27,7 +27,6 @@ check_login();
         body { font-family: 'Raleway', sans-serif; background-color: #f4f6f9; }
         
     </style>
-
 </head>
 <body>
     <div id="app">        
@@ -96,7 +95,7 @@ check_login();
         </div>
         <?php include('include/footer.php');?>
     </div>
-     <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="vendor/modernizr/modernizr.js"></script>
     <script src="vendor/jquery-cookie/jquery.cookie.js"></script>
