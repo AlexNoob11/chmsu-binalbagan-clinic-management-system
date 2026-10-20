@@ -153,7 +153,7 @@ $result = mysqli_query($con, $query);
             text-align: left;
         }
         
-        /* Theme Custom Colors (#1e3a8a) */
+        /* Theme Custom Colors*/
         .btn-custom-filter {
             background-color: #1e3a8a !important;
             color: #ffffff !important;
