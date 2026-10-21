@@ -2,6 +2,7 @@
 include_once('include/config.php');
 if(isset($_POST['submit']))
 {
+	
 $fname=$_POST['full_name'];
 $address=$_POST['address'];
 $city=$_POST['city'];
@@ -15,7 +16,6 @@ if($query)
 }
 }
 ?>
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -33,10 +33,6 @@ if($query)
 		<link rel="stylesheet" href="assets/css/styles.css">
 		<link rel="stylesheet" href="assets/css/plugins.css">
 		<link rel="stylesheet" href="assets/css/themes/theme-1.css" id="skin_color" />
-		
-		
-		
-
 	</head>
 
 	<body class="login">
@@ -124,9 +120,7 @@ if($query)
 					<div class="copyright">
 						&copy; <span class="current-year"></span><span class="text-bold text-uppercase"> HMS</span>. <span>All rights reserved</span>
 					</div>
-
 				</div>
-
 			</div>
 		</div>
 		<script src="vendor/jquery/jquery.min.js"></script>
