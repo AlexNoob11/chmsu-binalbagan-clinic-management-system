@@ -15,14 +15,10 @@ $_SESSION['email']=$email;
 header('location:reset-password.php');
 } else {
 echo "<script>alert('Invalid details. Please try with valid details');</script>";
-echo "<script>window.location.href ='forgot-password.php'</script>";
-
-
+echo "<script>window.location.href ='forgot-password.php'</script>";	
 }
-
 }
 ?>
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -101,9 +97,7 @@ echo "<script>window.location.href ='forgot-password.php'</script>";
 		<script src="vendor/perfect-scrollbar/perfect-scrollbar.min.js"></script>
 		<script src="vendor/switchery/switchery.min.js"></script>
 		<script src="vendor/jquery-validation/jquery.validate.min.js"></script>
-	
 		<script src="assets/js/main.js"></script>
-
 		<script src="assets/js/login.js"></script>
 		<script>
 			jQuery(document).ready(function() {
