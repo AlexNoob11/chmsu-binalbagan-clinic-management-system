@@ -1,6 +1,5 @@
 <?php
 session_start();
-
 // Include the database configuration
 include('include/config.php');
 
@@ -154,7 +153,6 @@ if(isset($_POST['submit'])) {
                                         <i class="fa <?php echo $error ? 'fa-exclamation-circle' : 'fa-check-circle'; ?>"></i> <?php echo htmlentities($msg); ?>
                                     </div>
                                 <?php } ?>
-
                                 <div class="profile-card">
                                     <?php 
                                     // Fetch the user details from the database using the session user_id
