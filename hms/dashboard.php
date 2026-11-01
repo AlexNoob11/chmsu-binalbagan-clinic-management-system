@@ -214,7 +214,6 @@ $next_schedule  = ($upcoming_row) ? $upcoming_row['check_up_date'] . ' @ ' . $up
                                     </a>
                                 </div>
                             </div>
-                            
                         </div>
 
                         <!-- Personal Metrics Footprint Summary Logs -->
@@ -235,7 +234,6 @@ $next_schedule  = ($upcoming_row) ? $upcoming_row['check_up_date'] . ' @ ' . $up
                                 </div>
                             </div>
                         </div>
-
                     </div>
                     <!-- end: CARDS WRAPPER GRID -->
                     
