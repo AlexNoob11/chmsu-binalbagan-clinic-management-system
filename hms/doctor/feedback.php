@@ -65,7 +65,6 @@ $feedback_result = mysqli_query($con, $feedback_sql);
         <?php include('include/sidebar.php'); ?>
         <div class="app-content">
             <?php include('include/header.php'); ?>
-
             <div class="main-content">
                 <div class="wrap-content container" id="container">
                     <section id="page-title">
@@ -129,14 +128,12 @@ $feedback_result = mysqli_query($con, $feedback_sql);
         <?php include('include/footer.php'); ?>
         <?php include('include/setting.php'); ?>
     </div>
-
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="vendor/modernizr/modernizr.js"></script>
     <script src="vendor/jquery-cookie/jquery.cookie.js"></script>
     <script src="vendor/perfect-scrollbar/perfect-scrollbar.min.js"></script>
     <script src="vendor/switchery/switchery.min.js"></script>
-
     <script src="vendor/maskedinput/jquery.maskedinput.min.js"></script>
     <script src="vendor/bootstrap-touchspin/jquery.bootstrap-touchspin.min.js"></script>
     <script src="vendor/autosize/autosize.min.js"></script>
@@ -145,7 +142,6 @@ $feedback_result = mysqli_query($con, $feedback_sql);
     <script src="vendor/select2/select2.min.js"></script>
     <script src="vendor/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
     <script src="vendor/bootstrap-timepicker/bootstrap-timepicker.min.js"></script>
-
     <script src="assets/js/main.js"></script>
     <script src="assets/js/form-elements.js"></script>
     <script>
