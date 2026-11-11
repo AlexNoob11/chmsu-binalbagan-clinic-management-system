@@ -49,4 +49,3 @@ Follow these steps to set up and run the **CHMSU Binalbagan Clinic Management Sy
 1. Open **Google Chrome** (or your preferred web browser).
 2. Enter the following URL in the address bar: `http://localhost/chmsu-binalbagan-clinic-management-system/`
 3. *Verification:* The system login/dashboard page should display without any database connection errors.
-4. 
