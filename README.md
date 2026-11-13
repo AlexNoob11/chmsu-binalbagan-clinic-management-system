@@ -31,7 +31,7 @@ Follow these steps to set up and run the **CHMSU Binalbagan Clinic Management Sy
 #### 4. Import SQL File
 1. Select the `clinic_system` database from the left panel.
 2. Click the **Import** tab at the top.
-3. Click **Choose File** and select the `clinic_system.sql` file on `database` folder.
+3. Click **Choose File** and select the `clinic_system.sql` file on chmsu-binalbagan-clinic-management-system/`database` folder.
 4. Scroll down and click **Go**.
 5. *Verification:* Confirm that all tables imported successfully without SQL syntax errors.
 
